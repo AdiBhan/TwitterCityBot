@@ -51,7 +51,7 @@ class TwitterBot():
         
         ''' City Counter Method counts the number of cities in the list'''
     
-        self.Cities_List = open(r'C:\Testing\TwitterTesting\uscities.txt','r')
+        self.Cities_List = open(r'C:\Testing\TwitterTesting\us_cities_sample.txt','r')
         self.Cities_Count = 1
     
         for lines in self.Cities_List:
@@ -67,7 +67,7 @@ def City_List_Getter():
     global Cities
     Cities = []
     
-    Cities_List = open(r'C:\Testing\TwitterTesting\uscities.txt','r')
+    Cities_List = open(r'C:\Testing\TwitterTesting\us_cities_sample.txt','r')
     
     for lines in Cities_List:
     
